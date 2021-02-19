@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   text-align: left;
+  font-family: 'Rubik', sans-serif;
 }
 
 #mountain-desktop-wide {
@@ -25,6 +28,13 @@
 .player-person, .player-text, .player-arrow {
   transform-origin: 0 0;
   transform: translateY(-250px) translateX(-40px);
+}
+
+.player-text {
+  font-size: 15px;
+  color: #0FA402;
+  display: inline;
+  text-align: center;
 }
 
 @media only screen and (min-width: 1370px) {
