@@ -30,6 +30,44 @@
   transform: translateY(-250px) translateX(-40px);
 }
 
+.total-scoreboard {
+  position: absolute;
+  padding: 150vh;
+  top: 50vh !important;
+  transform: translateX(50%);
+  background: #0FA402;
+}
+
+.total-scoreboard-li {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.total-scoreboard-li span {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.total-scoreboard-li:nth-child(3) {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.total-scoreboard-li:nth-child(2) {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.total-scoreboard-li:nth-child(1) {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 600;
+}
+
 @media only screen and (min-width: 1370px) {
   #mountain-desktop-wide {
     display: block;
