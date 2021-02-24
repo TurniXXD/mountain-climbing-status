@@ -1,4 +1,4 @@
-//pro přidání nového hráče vytvoř novou část v poli players pár řádků níže, 
+/* //pro přidání nového hráče vytvoř novou část v poli players pár řádků níže, 
 //a do HTML této stránky nakopíruj dalšího hráče (celou část ve které je class="player")
 var path = document.getElementById('mountain-path')
 var person = document.getElementsByClassName('player-person')
@@ -145,4 +145,4 @@ for(let set = 0 ; set <= players.length; set++) {
     animateMotion[set].setAttribute("path", pathContentPoint)
   }
   console.log("id: " + set + "\nplayer: " + players[set][1] + "\npoints: " + players[set][0])
-}
+} */
